@@ -35,45 +35,32 @@
     <div class="reveal">
       <div class="header">
         Welcome to <span class="mhvlug">MHVLUG</span>
+        <p id="wifiHeader"><i>SSID:</i> <b> HVLUG<a class="space"></a></b><i>USER:</i> <b> mhvlug</b><a class="space"></a><i>PASS:</i> <b> mQgJRQAp</b><a class="space"></a></p>
       </div>
+
 
       <!-- Any section element inside of this container is displayed as a slide -->
       <div class="slides">
-	<section style="text-align: left">
-          <h3 class="prespre">Tonight's Presentation:</h3>
-          <h3 class="prestitle">Linux where you least expect it</h3>
 
-          <img class="talk" src="http://mhvlug.org/sites/default/files/images/17-Ubuntoo-1320436541-large.jpg">
-          <br/>
-          <p>
-            Tonight's Agenda:
-          </p>
-          <p class="agenda">5:00 - Open Room</p>
-          <p class="agenda">6:05 - 10 years of MHVLUG in Data</p>
-          <p class="agenda">6:15 - Lightning Talks</p>
-          <p class="agenda">7:00 - Cake and Celebration</p>
+      	<section style="text-align: left">
+                <h3 class="prespre">Next Month:</h3>
+                <h3 class="prestitle">Typography: Physical
+                  Art to Digital Art</h3>
+                <img class="talk" src="http://mhvlug.org/sites/default/files/u26/type_anat.jpg">
+                <br/>
+                <p class="abstract">
+                  Explore the transformation of printing and
+                  typography from a distinctly physical art form to a
+                  modern digital artform.  Did you know that upper
+                  case and lower case are physical locations?  Learn
+                  the parts of a letter, and what points, tracking,
+                  leading, baselines and kerning are all about.  With
+                  that foundation we will explore the transformation
+                  of type onto digital media, including a discussion
+                  of fonts, formats and tools for type design.
+                </p>
 
-	</section>
-
-	<section style="text-align: left">
-          <h3 class="prespre">Next Month:</h3>
-          <h3 class="prestitle">Typography: Physical
-            Art to Digital Art</h3>
-          <img class="talk" src="http://mhvlug.org/sites/default/files/u26/type_anat.jpg">
-          <br/>
-          <p class="abstract">
-            Explore the transformation of printing and
-            typography from a distinctly physical art form to a
-            modern digital artform.  Did you know that upper
-            case and lower case are physical locations?  Learn
-            the parts of a letter, and what points, tracking,
-            leading, baselines and kerning are all about.  With
-            that foundation we will explore the transformation
-            of type onto digital media, including a discussion
-            of fonts, formats and tools for type design.
-          </p>
-
-	</section>
+      	</section>
 
         <section>
           <h2>Wireless Available</h2>
@@ -134,17 +121,25 @@
           <iframe width="800" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=Vassar+College,+124+Raymond+Ave,+Poughkeepsie,+NY&amp;daddr=Palace+Diner,+Washington+Street,+Poughkeepsie,+NY&amp;hl=en&amp;geocode=FYYWfAId4HOY-ylNS2eCVj7diTFM1YIIZH3I4w%3BFU6IfAIdwOqX-yH__Zj9LFmcwSk3O5XMCD7diTH__Zj9LFmcwQ&amp;aq=0&amp;oq=Palac&amp;sll=41.68663,-73.894901&amp;sspn=0.082173,0.209255&amp;mra=ls&amp;ie=UTF8&amp;t=m&amp;ll=41.700961,-73.91388&amp;spn=0.02967,0.031661&amp;output=embed"></iframe>
         </section>
 
-	<section>
-	  <h3>Check us out at <span class="mhvlug">mhvlug.org</span></h3>
-          <iframe width="800" height="600" src="http://mhvlug.org">
-          </iframe>
-	</section>
-      </div>
+      	<section>
+      	  <h3>Check us out at <span class="mhvlug">mhvlug.org</span></h3>
+                <iframe width="800" height="600" src="http://mhvlug.org">
+                </iframe>
+      	</section>
+      </div> <!-- /.slides -->
 
-    </div>
+      </div> <!-- /.reveal -->
 
     <script src="reveal.js/lib/js/head.min.js"></script>
     <script src="reveal.js/js/reveal.min.js"></script>
+
+    <!-- inserting the wifiFooter -->
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script>
+    $(document).ready(function(){
+      $('.progress').append('<p id="wifiFooter"><i>SSID:</i> <b> HVLUG<a class="space"></a></b><i>USER:</i> <b> mhvlug</b><a class="space"></a><i>PASS:</i> <b> mQgJRQAp</b></p>');
+    });
+    </script>
 
     <script type="text/javascript">
       // Full list of configuration options available here:
