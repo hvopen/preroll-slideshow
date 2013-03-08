@@ -165,6 +165,8 @@ body {
     top: 0.3em;
     left: 0.3em;
     font-weight: bold;
+    /* added this */
+    width: 100%;
 }
 
 .reveal h3 {
@@ -203,4 +205,27 @@ body {
 
 .reveal .drupal {
     color: #0173BA;
+}
+
+
+/***********************************************************
+ * wifiFooter
+ */
+
+#wifiFooter {
+  font-size: 18px;
+  margin-top: -1.4em;
+  text-align: center;
+}
+
+.space {
+  width: 20px;
+  height: 18px;
+  display: inline-block;
+}
+
+#wifiHeader {
+  font-size: 18px;
+  float:right;
+  margin: 0 10px 0 0;
 }
