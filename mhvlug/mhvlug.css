@@ -167,6 +167,12 @@ body {
     font-weight: bold;
 }
 
+.reveal .footer {
+    position: fixed;
+    bottom: 0.3em;
+    left: 0.3em;
+}
+
 .reveal h3 {
     font-weight: bold;
 }
