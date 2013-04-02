@@ -178,10 +178,13 @@ body {
 }
 
 .reveal span.mhvlug,
-.reveal h3.prestitle {
+.reveal h3 {
     color: #C5000B;
 }
 
+.reveal h3.prespre {
+    color: black;
+}
 
 .reveal img.talk {
     float: right;
