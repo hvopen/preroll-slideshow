@@ -186,6 +186,10 @@ body {
     color: black;
 }
 
+.reveal h3.sqwr {
+    color: #2A5500;
+}
+
 .reveal img.talk {
     float: right;
     padding: 0.2em;
