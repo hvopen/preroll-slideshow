@@ -10,7 +10,11 @@ of reveal.js. We'll rebase over time to bring in new features.
 
 ## Updating the presentation
 
-This presentation ends up live at http://mhvlug.org/live
+This presentation ends up live at [http://mhvlug.org/live](http://mhvlug.org/live)
 
 If you would like to help update, please get on github and provide a
 pull request, or ask to join the group.
+
+## Testing locally
+
+To test this on your local machine you will need to `git clone` [reveal.js](https://github.com/hakimel/reveal.js) inside of the project file, at the same level as index.html.  It has already been included in the `.gitignore` file.

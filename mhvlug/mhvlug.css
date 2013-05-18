@@ -165,6 +165,7 @@ body {
     top: 0.3em;
     left: 0.3em;
     font-weight: bold;
+    width: 100%;
 }
 
 .reveal .footer {
@@ -216,4 +217,30 @@ body {
 
 .reveal .drupal {
     color: #0173BA;
+}
+
+/***********************************************************
+ * WiFi Header
+ */
+ 
+ .space {
+  width: 20px;
+  height: 18px;
+  display: inline-block;
+}
+
+.left {
+  display:inline-block;
+}
+
+.right{
+  display:inline-block;
+  float: right;
+  position: relative;
+  right: 0.5em;
+  top: 0.4em;
+}
+
+#WiFiHeader {
+    font-size: 18px;
 }
