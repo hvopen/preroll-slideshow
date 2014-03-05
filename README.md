@@ -1,5 +1,6 @@
 # mhvlug-monthly-presentation
 
+
 This is the monthly pre-meeting presentation designed for mhvlug.org
 meetings. We run this prior to the meeting kicking off so that people
 know they are in the right room, and to give them information about
