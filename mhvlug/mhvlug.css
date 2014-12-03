@@ -201,10 +201,15 @@ body {
     padding: 0.2em;
 }
 
-.reveal p.agenda {
+.reveal p.agenda{
     font-size: 0.8em;
     padding-left: 1em;
 }
+
+ .reveal ol.agenda {
+    font-size: 0.8em;
+    padding-left: 2em;
+ }
 
 .reveal p.abstract {
     font-size: 0.6em;
