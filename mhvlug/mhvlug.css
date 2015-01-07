@@ -215,6 +215,14 @@ body {
     font-size: 0.6em;
 }
 
+.reveal dl dd {
+    font-size: .9em;
+    margin: 0 0 1em 2em;
+}
+ .reveal dl {
+    text-align: left;
+ }
+
 .reveal iframe {
     border: 5px black solid;
 }
