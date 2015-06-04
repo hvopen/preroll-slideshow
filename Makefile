@@ -5,3 +5,6 @@ all: reveal.js
 
 reveal.js:
 	git clone -b dev ${GITREPO}
+
+meetup:
+	phantomjs phantom/meetup.js
