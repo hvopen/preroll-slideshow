@@ -8,3 +8,5 @@ reveal.js:
 
 meetup:
 	phantomjs phantom/meetup.js
+	phantomjs phantom/sqwr.js
+	phantomjs phantom/hvtech.js

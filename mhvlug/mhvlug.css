@@ -230,3 +230,7 @@ body {
 .reveal .drupal {
     color: #0173BA;
 }
+
+.smallimg img {
+    max-width: 100%;
+}
