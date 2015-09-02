@@ -1,6 +1,6 @@
 GITREPO=https://github.com/hakimel/reveal.js/
 
-all: reveal.js
+all: reveal.js meetup
 	cd reveal.js && git pull
 
 reveal.js:
