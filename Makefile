@@ -10,3 +10,4 @@ meetup:
 	phantomjs phantom/meetup.js
 	phantomjs phantom/sqwr.js
 	phantomjs phantom/hvtech.js
+	phantomjs phantom/mhvlug.js
