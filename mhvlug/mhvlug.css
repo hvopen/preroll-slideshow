@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700|Ubuntu:400,700);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700|Source+Sans+Pro:400,700|Lato:400);
 /**
  * A simple theme for reveal.js presentations, similar
  * to the default theme. The accent color is darkblue.
@@ -15,11 +15,11 @@ body {
 }
 
 .reveal {
-  font-family: "Ubuntu", Times, "Times New Roman", serif;
+    font-family: "Source Sans Pro", "sans-serif";
   font-size: 36px;
   font-weight: 200;
   letter-spacing: -0.02em;
-  color: black;
+  color: #17171A;
 }
 
 ::selection {
@@ -38,8 +38,8 @@ body {
 .reveal h5,
 .reveal h6 {
   margin: 0 0 20px 0;
-  color: black;
-  font-family: "Ubuntu", "News Cycle", Impact, sans-serif;
+  color: #17171A;
+  font-family:  "Source Sans Pro", "sans-serif";
   line-height: 0.9em;
   letter-spacing: 0.02em;
   text-transform: none;
@@ -177,13 +177,16 @@ body {
     font-weight: bold;
 }
 
-.reveal span.mhvlug,
 .reveal h3 {
-    color: #C5000B;
+    color: #1DA8DE;
+}
+
+.reveal span.mhvlug {
+    color: #1684B9;
 }
 
 .reveal h3.prespre {
-    color: black;
+    color: #17171A;
 }
 
 .reveal h3.sqwr {
