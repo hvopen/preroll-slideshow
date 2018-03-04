@@ -16,10 +16,10 @@ body {
 
 .reveal {
     font-family: "Source Sans Pro", "sans-serif";
-  font-size: 36px;
-  font-weight: 200;
-  letter-spacing: -0.02em;
-  color: #17171A;
+    font-size: 3em;
+    /* font-weight: 200; */
+    /* letter-spacing: -0.02em; */
+    color: #17171A;
 }
 
 ::selection {
@@ -31,6 +31,10 @@ body {
 /*********************************************
  * HEADERS
  *********************************************/
+.reveal h3 {
+    font-size: 1.2em;
+}
+
 .reveal h1,
 .reveal h2,
 .reveal h3,
@@ -41,13 +45,17 @@ body {
   color: #17171A;
   font-family:  "Source Sans Pro", "sans-serif";
   line-height: 0.9em;
-  letter-spacing: 0.02em;
+  letter-spacing: -1px;
   text-transform: none;
   text-shadow: none;
 }
 
 .reveal h1 {
   text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+}
+
+.reveal p {
+    margin-bottom: 1em;
 }
 
 /*********************************************
@@ -205,8 +213,14 @@ body {
 }
 
 .reveal p.agenda{
+    margin-bottom: 0.2em;
+}
+
+.reveal li {
+    list-style: none;
     font-size: 0.8em;
-    padding-left: 1em;
+    padding-left: 0.8em;
+    padding-bottom: 0.2em;
 }
 
  .reveal ol.agenda {
@@ -237,4 +251,9 @@ body {
 .smallimg img {
     max-width: 100%;
     max-height: 100%;
+}
+
+.reveal td {
+    text-align: left;
+    padding: 0.2em;
 }

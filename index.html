@@ -34,7 +34,7 @@
 
     <div class="reveal">
       <div class="header">
-        <img height="30px" src="images/logo_medium.png">
+        <img height="50px" src="images/logo_medium.png">
       </div>
 
       <!-- Any section element inside of this container is displayed as a slide -->
@@ -47,15 +47,17 @@
           <h3 class="prestitle">
             15th Anniversary - Lightning Talks
           </h3>
-          <p>
+          <p class="agenda">
             Tonight's Agenda:
           </p>
-          <p class="agenda">5:00 - Open Room</p>
-          <p class="agenda">6:10 - Lightning Talks</p>
-          <p class="agenda">7:00 - Cake and Celebration</p>
-          <!-- <p class="agenda">6:05 - Lightning Talks</p> -->
-          <!-- <p class="agenda">6:20 - Main Lecture</p> -->
-          <p class="agenda">8:00 - Palace Diner for Dinner and Chat</p>
+          <ul>
+            <li>5:00 - Open Room
+            <li>6:10 - Lightning Talks
+            <li>7:00 - Cake and Celebration
+              <!-- <li>6:05 - Lightning Talks -->
+              <!-- <li>6:20 - Main Lecture -->
+            <li>8:00 - Palace Diner for Dinner and Chat
+          </ul>
 	</section>
 
 	<section style="text-align: left">
@@ -68,14 +70,11 @@
             <p>
               <img align="right" width="200" height="200"
                    src="https://mhvlug.org/sites/default/files/logo_0.png">
-
               Kubernetes seems to be all the rage in today’s cloud focused, microservice architecture hyped world — but what is this mysterious beast and how does one use it in practice?
             </p>
-            <br/>
             <p>
               In the first part of this talk, Dan will take you through the core architectural concepts behind Kubernetes, give a fast crash course on docker images and containers, and speak about Kubernetes as a practical, elegant, reliable and manageable solution for applications of any size or scale.
             </p>
-            </br>
             <p>
               The second part will be focused on getting an app up and running on Kuberneres using the Google Container Engine. Dan will take the audience through the basic bootstrapping of a Kubernetes cluster, fundamental application architecture including container design, pod and service description and creation, deployment, storage management, and exposing a service on the public internet.
             </p>
@@ -87,12 +86,25 @@
 
         <section>
           <h3>Upcoming Meetings (subject to change)</h3>
-          <dl>
-            <dt>February</dt>
-            <dd>Kubernetes</dd>
-            <dt>March - 15th Anniversary</dt>
-            <dd>Lightning Talks!</dd>
-          </dl>
+          <table width="100%">
+            <tr>
+              <td>April</td>
+              <td>Technology and Real World Uses of FreeIPA with Red
+                Hat</td>
+            </tr>
+            <tr>
+              <td>May</td>
+              <td>Kubernetes</td>
+            </tr>
+            <tr>
+              <td>June</td>
+              <td>Unity 3D</td>
+            </tr>
+            <tr>
+              <td>July</td>
+              <td>Mad Science Fair!</td>
+            </tr>
+          </table>
         </section>
 
 
@@ -131,19 +143,17 @@
 	<div style="text-align:left">
 	  <h2>Keep in Touch
 	    with <span class="mhvlug">HV Open</span></h2>
-          <br/>
           <p><i>URL Changes Coming Soon</i></p>
-          <p><img src="https://mhvlug.org/sites/all/themes/mhvlug3/images/facebook_24x24.png"
-                  style="display:inline; width:35px; margin:0 15px 0 0;">
-	    facebook.com/mhvlug</p>
-          <br/>
-	  <p><img src="https://mhvlug.org/sites/all/themes/mhvlug3/images/twitter_24x24.png"
+          <ul>
+            <li><img src="https://mhvlug.org/sites/all/themes/mhvlug3/images/facebook_24x24.png"
+                     style="display:inline; width:35px; margin:0 15px 0 0;">
+	      facebook.com/mhvlug
+	    <li><img src="https://mhvlug.org/sites/all/themes/mhvlug3/images/twitter_24x24.png"
 	  style="display:inline; width:35px; margin:0 15px 0 0;">
-	    @mhvlug</p>
-          <br/>
-	  <p><img src="https://mhvlug.org/sites/all/themes/mhvlug3/images/meetup_35x24.png" style="display:inline; margin:0 15px 0 0">  meetup.com/mhvlug</p>
-          <br/>
-          <p>IRC:  FreeNode #mhvlug</p>
+	      @mhvlug
+	    <li><img src="https://mhvlug.org/sites/all/themes/mhvlug3/images/meetup_35x24.png" style="display:inline; margin:0 15px 0 0">  meetup.com/mhvlug
+            <li>IRC:  FreeNode #mhvlug
+          </ul>
 	  <!-- <ul> -->
   	  <!--  <li>Mailing list: mhvlug@mhvlug.org</li>-->
 	  <!--  <li>Twitter: @mhvlug</li>-->
@@ -248,7 +258,7 @@
           center: true,
           loop: true,
           autoSlide: 20000,
-          autoSlideStoppable: false,
+          autoSlideStoppable: true,
 
           theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
           transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
