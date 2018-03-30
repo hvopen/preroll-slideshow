@@ -61,21 +61,21 @@ body {
 /*********************************************
  * LINKS
  *********************************************/
-.reveal a:not(.image) {
-  color: darkblue;
-  text-decoration: none;
-  -webkit-transition: color .15s ease;
-  -moz-transition: color .15s ease;
-  -ms-transition: color .15s ease;
-  -o-transition: color .15s ease;
-  transition: color .15s ease;
-}
+/* .reveal a:not(.image) { */
+/*   color: darkblue; */
+/*   text-decoration: none; */
+/*   -webkit-transition: color .15s ease; */
+/*   -moz-transition: color .15s ease; */
+/*   -ms-transition: color .15s ease; */
+/*   -o-transition: color .15s ease; */
+/*   transition: color .15s ease; */
+/* } */
 
-.reveal a:not(.image):hover {
-  color: #0000f1;
-  text-shadow: none;
-  border: none;
-}
+/* .reveal a:not(.image):hover { */
+/*   color: #0000f1; */
+/*   text-shadow: none; */
+/*   border: none; */
+/* } */
 
 .reveal .roll span:after {
   color: #fff;
@@ -187,6 +187,12 @@ body {
 
 .reveal h3 {
     color: #1DA8DE;
+}
+
+.reveal a,
+.reveal a:visited {
+    text-decoration: none;
+    color: #1684B9;
 }
 
 .reveal span.highlight {
