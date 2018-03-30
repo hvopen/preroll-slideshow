@@ -11,7 +11,7 @@ of reveal.js. We'll rebase over time to bring in new features.
 
 ## Updating the presentation
 
-This presentation ends up live at http://mhvlug.org/live
+This presentation ends up live at https://live.hvopen.org
 
 If you would like to help update, please get on github and provide a
 pull request, or ask to join the group.
@@ -22,7 +22,7 @@ If you wish to test the site locally with reveal.js intact and have PhantomJS cr
 
 1. [Install Vagrant](https://docs.vagrantup.com/v2/installation/index.html)
 2. clone this repo
-3. `cd mhvlug-monthly-presentation`
+3. `cd hvopen-preroll-slideshow`
 4. create the Vagrant machine by typing `vagrant up`
 5. when the configuration has finished you can use a web browser and visit `localhost:8081` to see the presentation
 6. To use PhantomJS to update the screenshots:
