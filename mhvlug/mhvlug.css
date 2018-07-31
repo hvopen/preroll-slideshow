@@ -16,7 +16,8 @@ body {
 
 .reveal {
     font-family: "Source Sans Pro", "sans-serif";
-    font-size: 2.5em;
+    font-size: 2.2em;
+    line-height: 1.6em;
     /* font-weight: 200; */
     /* letter-spacing: -0.02em; */
     color: #17171A;
@@ -264,4 +265,9 @@ body {
 .reveal td {
     text-align: left;
     padding: 0.2em;
+}
+
+.reveal b {
+    font-weight: bold;
+    color: #1684B9;
 }
